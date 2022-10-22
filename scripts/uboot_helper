@@ -297,7 +297,8 @@ devices = \
       },
       'khadas-edge': {
         'dtb': 'rk3399-khadas-edge.dtb',
-        'config': 'khadas-edge-rk3399_defconfig'
+        'config': 'khadas-edge-rk3399_defconfig',
+        'rockchip_legacy_boot': '1'
       },
       'nanopc-t4': {
         'dtb': 'rk3399-nanopc-t4.dtb',
